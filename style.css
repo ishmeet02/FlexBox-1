@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://blog.displate.com/wp-content/uploads/2022/03/7823ce22-6148-4aa6-a62b-8006a592c176.png");
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+
+}
+
+.header {
+    background-color: rgb(189, 155, 224);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h2,
+p {
+    text-align: center;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    width: 300px;
+    height: 450px;
+}
